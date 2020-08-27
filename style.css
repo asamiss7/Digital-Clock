@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    width: 500px;
+    border: 2px solid #cce7e8;
+    border-radius: 4px;
+    color: #17D4FE;
+    text-align: center;
+    padding: 10px;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    top: 50%;
+    left: 50%;
+    margin: 200px auto;
+}
