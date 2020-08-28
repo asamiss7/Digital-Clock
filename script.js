@@ -24,7 +24,7 @@ function clock() {
     minute= (minute < 10) ? "0" + minute : minute;
     second= (second < 10) ? "0" + second : second;
 
-    document.getElementById("date").innerHTML= year+ "/" +month+ "/" +date+ " " +day;
+    document.getElementById("date").innerHTML= year+ "/" +month+ "/" +date+ "</br>" +day;
     document.getElementById("time").innerHTML= hour+ ":" +minute+ ":" +second+ " " +meridiem;
     
     setInterval(clock, 1000);
